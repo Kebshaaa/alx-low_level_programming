@@ -3,6 +3,7 @@
 
 	/**
 	 * print_alphabet - print all alphabet in lowercasei
+	 * Description: betty love her self
 	 *
 	 * Return: Always 0
 	 */

@@ -1,22 +1,20 @@
 #include "main.h"
 
+/**
+ * print_alphabet - Entry point
+ * Return: Always 0
+ */
 
-	/**
-	 * print_alphabet - print all alphabet in lowercasei
-	 * Description: betty love her self
-	 *
-	 * Return: Always 0
-	 */
+void print_alphabet(void)
+{
+	char alpha;
 
+	alpha = 'a';
 
-	void print_alphabet(void)
+	while (alpha <= 'z')
 	{
-		char letter;
-
-
-		for (letter = 'a'; letter <= 'z'; letter++)
-			_putchar(letter);
-
-
-		_putchar('\n');
+		_putchar(alpha);
+		alpha++;
 	}
+	_putchar('\n');
+}
